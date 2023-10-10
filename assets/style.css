@@ -90,8 +90,9 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
+#gallery-item {
+	width: 424;
+	height: 424;
 }
 .title{
 	text-align: center;
