@@ -18,8 +18,8 @@
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js"async></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"defer></script>
-	<script src="./assets/maugallery.js" defer></script>
-	<script src="./assets/scripts.js" defer></script>
+	<script src="./assets/maugallery.min.js" defer></script>
+	<script src="./assets/scripts.min.js" defer></script>
 	
 	<!-- twitter -->
 	<meta name="twitter:card" content="summary_large_image">
@@ -55,7 +55,7 @@
 			
 			"@context": "https://schema.org",
 			"@type": "LocalBusiness",
-			"name": "Nina Carducci Photographe",
+			"name": "Nina Carducci Photographie",
 			"image": "https://quentinpruvost.github.io/ninacarducci_op/assets/images/nina.avif",
 			"@id": "https://quentinpruvost.github.io/ninacarducci_op/assets/images/nina.avif",
 			"url": "https://quentinpruvost.github.io/ninacarducci_op/",
@@ -228,11 +228,11 @@
 			<h2>Une question ? Une demande de devis ?</h2>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="" method="post">
-				<label>Nom</label>
-				<input type="text" name="nom" class="nom" aria-label="nom">
-				<label>Email</label>
-				<input type="email" name="email" class="email" aria-label="email">
-				<label>Message</label>
+				<label for="name">Nom</label>
+				<input type="text" name="nom" class="nom" aria-label ="nom">
+				<label for="email">Email</label>
+				<input type="email" name="email" class="email" aria-label ="email">
+				<label for="message" >Message</label>
 				<textarea name="message" class="message" cols="30" rows="10" aria-label="message"></textarea>
 				<input type="submit" value="Envoyer"aria-label="Envoyer le formulaire">
 			</form>
