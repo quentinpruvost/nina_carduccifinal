@@ -40,6 +40,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -69,7 +70,6 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
 #about-me {
 	flex: 2
@@ -84,16 +84,17 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+    font-size: 1rem;
+    margin: 0 0 8px 0;
 }
 #about-me p {
 	width: 80%;
 	font-size: 14px;
 }
 
-#gallery-item {
-	width: 424;
-	height: 424;
-}
+/*#gallery {
+	min-height: 100vh;
+}*/
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -101,7 +102,7 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
@@ -245,6 +246,18 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.w-100{
+	aspect-ratio: auto 80 / 37;
+	max-width: 100%;
+  	height: auto;
+}
+
+#about img, #contact img{
+	aspect-ratio: auto 1 / 1;
+	max-width: 100%;
+  	height: auto;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -256,7 +269,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h3, #about-me p {
 		width: 100%;
 	}
 }
@@ -354,4 +367,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
